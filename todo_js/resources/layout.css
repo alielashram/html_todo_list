@@ -1,0 +1,42 @@
+/*
+ * 
+ */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #f4f4f4;
+}
+
+h1, h2, h3 {
+	color: #222;
+}
+
+p {
+	line-height: 24px;
+	color: #555;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	visibility: hidden;
+}
+a:active {
+	visibility: hidden;
+}
+
+#header  {
+	border-bottom: 1px solid #999;
+}
+
+/* Ignore this for now, it is special code needed to fix the layout after using the "float" rules */
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
